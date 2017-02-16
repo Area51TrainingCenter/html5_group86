@@ -1,0 +1,59 @@
+.title-site{
+	font-family: arial;
+	font-size: 30px;
+text-decoration: underline;
+text-transform: uppercase;
+text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.parrafo1{
+	font-size: 20px;
+	color: blue;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	line-height: 18px;
+
+
+
+}
+
+.letra{font-size: 50px;color: orange;}
+.resaltado{
+	font-weight: bold;
+	color: purple;
+}
+
+
+.subtitulo{
+	color: skyblue;
+}
+
+
+h3{
+	color: green;
+	font-family: arial;
+	font-size: 40px;
+}
+
+
+#nuevo-titulo{
+	color: red;
+}
+
+.parrafo2{
+	/*text-transform: capitalize;*/
+	/*text-transform: lowercase;*/
+	/*text-transform: uppercase;*/
+	text-align: center;
+	line-height: 1.4; 
+	font-family: arial;
+}
+
+
+

@@ -1,0 +1,77 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+*{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+.centro-contenido{
+width: 1170px;
+margin:0 auto;
+/*margin: 0 auto;*/
+}
+
+.title-site{
+	font-size:51px;
+	color:#5ab7de;
+	font-weight: bold;
+	float: left;
+	margin-top: 10px;
+}
+
+.title-lower{
+	font-size: 24px;
+	color: gray;
+}
+
+.ico-celeste{
+	color:#5ab7de;
+}
+
+.box-contacto{
+	float: right;
+	text-align: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.text-phone{
+	font-size: 20px;
+}
+.text-detalle-contacto{
+	font-size: 17px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.header-site{
+padding-top: 20px;
+}
+.nav-site{
+	background-color: #434547;
+	margin-top: 20px;
+}
+.nav-site ul{
+
+}
+.nav-site li{
+float: left;
+	color:white;
+	padding:15px;
+	border-right:1px solid #56585a;
+	transition:all 0.3s linear;
+}
+.nav-site li:hover{
+	background-color: #5ab7de;
+	border-right:1px solid #5ab7de;
+}
+.nav-site .activo{
+background-color: #5ab7de;
+border-right:1px solid #5ab7de;
+}

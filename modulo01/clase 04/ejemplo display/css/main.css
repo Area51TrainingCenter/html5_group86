@@ -1,0 +1,19 @@
+.titulo{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: arial;
+	background-color: pink;
+	width: 100px
+
+}
+
+.texto1{
+background-color: yellow;
+width: 500px;
+}
+.parrafo1{
+background-color: purple;
+}
+.texto2{
+background-color: green;
+}

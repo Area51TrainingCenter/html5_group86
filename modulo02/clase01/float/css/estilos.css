@@ -1,0 +1,25 @@
+.contenedor{
+	width: 970px;
+	margin:0 auto;
+	background-color: skyblue;
+
+}
+
+.noticias{
+	width:215px;
+	height: 300px;
+	background-color: red;
+	float: left;
+margin-left: 180px;
+}
+.lateral{
+	width: 215px;
+	height: 300px;
+	background-color: blue;
+	float: left;
+	margin-left: 180px
+}
+
+.clear{
+	clear: both;
+}

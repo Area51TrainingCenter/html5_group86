@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+.lateral{
+	width: 300px;
+	height: 600px;
+	background-color: red;
+	display: inline-block;
+	vertical-align: top;
+}
+.principal{
+	width: 600px;
+	height: 600px;
+	background-color: blue;
+	display: inline-block;
+	vertical-align: top;
+}
+.superior{
+	width: 580px;
+	height: 160px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: orange;
+}
+.item{
+	width: 285px;
+	height: 200px;
+	background-color: yellow;
+	margin-left: 7px;
+	margin-bottom: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
