@@ -1,0 +1,44 @@
+.ico{
+	width: 84px;
+	height: 84px;
+	
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../img/redes.png);
+	transition:all 0.3s linear;
+}
+
+.ico-facebook{
+	background-position: 0px 0px;
+}
+.ico-facebook:hover{
+	background-position: 0px -84px;
+}
+.ico-twitter{
+	background-position: -672px 0px;
+
+}
+
+.ico-twitter:hover{
+	background-position: -672px -84px;
+
+}
+
+.ico-youtube{
+	background-position: -840px 0px;
+
+}
+
+.ico-youtube:hover{
+	background-position: -840px -84px;
+
+}
+.ico-linkedin{
+	background-position: -336px 0px;
+
+}
+
+.ico-linkedin:hover{
+	background-position: -336px -84px;
+
+}

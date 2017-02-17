@@ -1,0 +1,19 @@
+body{
+	font-family: arial;
+}
+.lista-menu li{
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	padding: 20px;
+}
+.header-site{
+	background-color: black;
+}
+.lista-menu{
+	width: 1024px;
+	margin:0 auto;
+	background-color: black;
+}
+
+

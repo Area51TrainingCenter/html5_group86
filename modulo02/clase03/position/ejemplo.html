@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="contenido">
+	<article class="item">
+		<h2>Victoria's Secret abrió su primera tienda en Perú</h2>
+		
+		<div class="marco-imagen">
+		<span class="categoria">Categoria</span>
+			<img src="http://cde.3.elcomercio.pe/ima/0/1/5/9/8/1598047/176x99.jpg">
+			<p class="detalle">Centro comercial Jockey Plaza anunció el inicio de operaciones Victoria's Secret. Famosa marca también llegará a provincias…</p>
+		</div>
+	</article>
+</div>
+</body>
+</html>
+<style type="text/css">
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0px;
+}
+	.item{
+		float: left;
+		width: 200px;
+		padding: 10px;
+		font-family: arial;
+		background-color: black;
+		position: relative;
+
+	}
+		.item img{
+			width: 100%
+		}
+	.item h2{
+		font-size: 20px;
+		color:white;
+		margin-bottom: 15px;
+
+	}
+	.categoria{
+		font-size: 12px;
+		padding: 5px;
+		display: inline-block;
+		padding-bottom: 7px;
+		background-color: #fc0;
+		position: absolute;
+		left: 0px;
+		top: -10px;
+		z-index: 100;
+	}
+	.marco-imagen{
+		position: relative;
+	}
+	.detalle{
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-size: 12px;
+		padding: 10px;
+		padding-top: 18px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 10;
+		height: 100%;
+		opacity: 1;
+		transition: all 0.3s linear;
+
+	}
+	.detalle:hover{
+		opacity: 0;
+	}
+</style>
