@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalabel=no">
+</head>
+<body>
+
+<div class="container">
+	
+	<h1 class="title-site">Titulo de mi contenido</h1>
+
+	
+	<article class="noticia">
+		<img src="descarga.jpg">
+		<h2>Titulo de noticia1</h2>
+	</article>
+
+	<article class="noticia no-movil">
+		<img src="descarga.jpg">
+		<h2>Titulo de noticia1</h2>
+	</article>
+	
+</div>
+</body>
+</html>
+<style type="text/css">
+body{
+	font-family: arial;
+}
+	.container{
+		width: 970px;
+		margin:0 auto;
+		
+	}
+	.title-site{
+font-size: 40px;
+	}
+
+	.noticia{
+		width: 480px;
+		display: inline-block;
+		vertical-align: top;
+		border-bottom: 2px solid black;
+		padding-bottom: 20px;
+	}
+
+	@media (max-width: 970px){
+		.container{
+			width: 100%;
+		}
+
+		.noticia{
+		width: 48%;
+		}
+		.noticia img{
+			width: 100%;
+		}
+
+
+	}
+
+	@media (max-width: 500px){
+		.noticia{
+		width: 100%;
+		}
+		.no-movil{
+			display: none;
+		}
+
+	}
+</style>

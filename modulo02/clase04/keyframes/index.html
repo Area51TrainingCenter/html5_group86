@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="objeto1"></div>
+<!--<div class="objeto2"></div>-->
+</body>
+</html>
+<style type="text/css">
+	
+
+	.objeto1{
+		width: 20px;
+		height: 20px;
+		background-color: blue;
+		animation:salto 2s 3;
+		-webkit-animation:salto 5s infinite;
+		display: inline-block;
+		vertical-align: top;
+		border-radius: 50%
+	}
+	.objeto2{
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		animation:salto 2s 3;
+		-webkit-animation:salto 8s infinite;
+		display: inline-block;
+		vertical-align: top;
+	}
+</style>
+
+<style type="text/css">
+	
+@-webkit-keyframes salto {
+    /*from {margin-top: 0px;}
+    to {margin-top: 200px;}*/
+    0%{margin-top: 0px;}
+    20%{margin-top: 200px;margin-left: 50px}
+    40%{margin-top: 70px;margin-left: 100px}
+    60%{margin-top:200px;margin-left: 150px}
+    80%{margin-top: 160px;margin-left: 220px}
+    100%{margin-top: 200px;margin-left: 300px}
+} 
+
+/* Standard syntax */ 
+@keyframes salto {
+  	 0%{margin-top: 0px;}
+    20%{margin-top: 200px;margin-left: 50px}
+    40%{margin-top: 70px;margin-left: 100px}
+    60%{margin-top:200px;margin-left: 150px}
+    80%{margin-top: 160px;margin-left: 220px}
+    100%{margin-top: 200px;margin-left: 300px}
+    /*from {margin-top: 0px;}
+    to {margin-top: 200px;}*/
+
+
+}
+
+
+</style>

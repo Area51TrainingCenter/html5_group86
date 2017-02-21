@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div class="cuadro">
+	<span class="player1"></span>
+	<span class="player2"></span>
+	<div class="linea"></div>
+	<div class="centro"></div>
+	<div class="balon"></div>
+</div>
+</body>
+</html>
+
+<style type="text/css">
+.balon{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-radius:50%;
+	position: absolute;
+	left: 40px;
+	top: 30px;
+	display: inline-block;
+	animation: balon 5s infinite;
+}
+	.cuadro{
+		width: 600px;
+		height: 300px;
+		background-color: black;
+		position: relative;
+	}
+	.linea{
+		width: 4px;
+		background-color:white;
+		height: 300px;
+		left: 50%;
+		margin-left: -2px;
+		position: absolute;
+	}
+	.centro{
+		width: 200px;
+		height: 200px;
+		left: 50%;
+		position: absolute;
+		top: 50%;
+		margin-top: -100px;
+		margin-left: -100px;
+		border-radius: 50%;
+		border:4px solid white;
+	}
+	.player1{
+		width: 20px;
+		height: 80px;
+		background-color: white;
+		position: absolute;
+		left: 10px;
+		top: 10px;
+		animation: player1 5s infinite;
+	}
+	.player2{
+		width: 20px;
+		height: 80px;
+		background-color: white;
+		position: absolute;
+		right: 10px;
+		top: 210px;
+		animation: player2 5s infinite;
+	}
+
+	@-webkit-keyframes player1 {
+  	0%{top: 10px;}
+  	20%{top: 110px;}
+  	40%{top: 210px;}
+  	60%{top: 150px;}
+  	80%{top: 60px;}
+
+  	100%{top: 10px;}
+	}
+	@keyframes player1 {
+  	0%{top: 10px;}
+  	20%{top: 110px;}
+  	40%{top: 210px;}
+  	60%{top: 150px;}
+  	80%{top: 60px;}
+
+  	100%{top: 10px;}
+	}
+
+
+	@-webkit-keyframes player2 {
+  	0%{top: 210px;}
+  	20%{top: 120px;}
+  	40%{top: 20px;}
+  	60%{top: 150px;}
+  	80%{top: 200px;}
+
+  	100%{top: 210px;}
+	}
+	@keyframes player2 {
+  	0%{top: 210px;}
+  	20%{top: 120px;}
+  	40%{top: 20px;}
+  	60%{top: 150px;}
+  	80%{top: 200px;}
+
+  	100%{top: 210px;}
+}
+  	
+
+  	@-webkit-keyframes balon {
+  	 0%{left: 40px;
+	top: 30px;}
+  	 20%{left: 520px;
+	top: 130px;}
+  	 40%{left:40px;
+	top: 230px;}
+  	 60%{left:520px;
+	top: 180px;}
+  	 80%{left:40px;
+	top: 80px;}
+     100%{left: 40px;
+	top: 30px;}
+	}
+	@keyframes balon {
+  		 0%{left: 40px;
+	top: 30px;}
+  	 20%{left: 520px;
+	top: 130px;}
+  	 40%{left:40px;
+	top: 230px;}
+  	 60%{left:520px;
+	top: 180px;}
+  	 80%{left:40px;
+	top: 80px;}
+     100%{left: 40px;
+	top: 30px;}
+}
+
+</style>
+
+
+http://codepen.io/anon/pen/aprxbN

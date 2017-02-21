@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="bloques">
+<div class="over-img">
+	<img class="caja1-img" src="rotate.jpg">
+
+	</div>
+<div class="over-img">
+	<img class="caja1-img" src="rotate.jpg">
+	</div>
+	<div class="over-img">
+	<img class="caja1-img" src="rotate.jpg">
+	</div>
+</div>
+
+</body>
+</html>
+
+<style type="text/css">
+.bloques{
+	width: 620px;
+	margin:0 auto;
+	text-align: center;
+}
+.over-img{
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	overflow: hidden;
+}
+	.caja1-img{
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		transition: all 0.2s linear;
+		opacity: 0.6;
+		
+	}
+	.caja1-img:hover{
+		/*transform: scale(1.5,1.5) rotate(5deg);*/
+		transform: skew(180deg);
+		opacity: 1;
+		/*transform: translate(300px,300px) rotate(360deg);*/
+		/*transform: translate(100px,100px);
+		*/
+	}
+</style>

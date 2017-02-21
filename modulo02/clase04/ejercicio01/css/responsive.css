@@ -1,0 +1,144 @@
+
+
+
+@media (min-width: 1024px){
+	.menu-home .ico-nav{
+		display: none;
+	}
+
+
+}
+@media (max-width: 1024px){
+	.wrapper{
+		width: 100%;
+	}
+	/*** estilos para menu **/
+	.ui-logo{
+		
+		width: 100%;
+		text-align: center;
+	}
+	.ui-menu-top{
+		width: 100%;
+		text-align: center;
+	}
+	.menu-home ul{
+		width: 100%;
+		background-color: blue;
+	}
+	.menu-home .text-shopping{
+		width: 100%;
+		background-color: red;
+		text-align: right;
+		display: none;
+	}
+	.menu-home ul{
+		display: none;
+	}
+	.menu-home ul li{
+		display: block;
+		text-align: right;
+
+		
+	}
+	.ico-nav{
+		text-align: right;
+		display: block;
+		width: 100%;
+
+	}
+	.menu-home{
+		width: 96%;
+		margin-left: 2%;
+
+	}
+	/** end estilos para menu**/
+
+	/** estilos para bloque items **/
+	.seccion-ofertas{
+		padding-top: 10px;
+		padding-bottom: 5px;
+	}
+	.seccion-ofertas .item{
+		width: 47%;
+		margin:0px;
+		margin-left:2%;
+		margin-bottom: 5px;
+		background-position: center;
+	}
+
+	.ui-capa{
+		width: 100%;
+	}
+	/** end estilos para bloque items **/
+
+	/** seccion venta vestidos **/
+	.tab{
+		width: 100%;
+
+		text-align: center;
+	}
+	.tab li{
+		float: none;
+	
+		display: inline-block;
+		vertical-align: top;
+		padding: 20px;
+
+	}
+	.caja-de-productos{
+		text-align: center;
+	}
+	.item-producto{
+		width: 23%;
+	}
+	.item-producto img{
+		width: 100%;
+		height: auto;
+	}
+	/** end seccion venta vestidos **/
+}
+
+
+@media (max-width: 800px){
+	.seccion-slider{
+		display: none;
+	}
+}
+
+
+@media (max-width: 600px){
+.item-producto{
+		width: 32%;
+	}
+}
+
+@media (max-width: 580px){
+	.ui-menu-top{
+		display: none;
+	}
+
+	.seccion-ofertas .item{
+		width: 98%;
+		
+		margin-left:1%;
+		margin-bottom: 5px;
+	}
+
+
+
+}
+
+
+@media (max-width: 420px){
+.item-producto{
+		width: 48%;
+	}
+}
+@media (max-width: 380px){
+	.item-producto{
+		width: 98%;
+	}
+}
+
+

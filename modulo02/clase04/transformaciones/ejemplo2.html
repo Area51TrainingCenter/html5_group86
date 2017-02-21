@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="caja-aniamacion">
+	<img class="img-carro"src="carro.png">
+	<span class="rueda1">
+		<img src="rueda2.png">
+	</span>
+	<span class="rueda2">
+		<img src="rueda2.png">
+	</span>
+</div>
+
+</body>
+</html>
+<style type="text/css">
+	.caja-aniamacion{
+		width: 500px;
+		position: relative;
+transition:all 4s linear;
+	}
+	.caja-aniamacion:hover{
+		transform: translate(400px,0px);
+	}
+.caja-aniamacion:hover .rueda2{
+		transform: rotate(720deg);
+	}
+
+	.caja-aniamacion:hover .rueda1{
+		transform: rotate(720deg);
+	}
+
+	.img-carro{
+		width: 100%;
+	}
+	.rueda1{
+		position: absolute;
+		bottom: 18px;
+		left: 74px;
+		transition: all 4s linear;
+	}
+	.rueda1 img{
+		width: 124px;
+	}
+
+	.rueda2{
+		position: absolute;
+		bottom: 18px;
+		right: 67px;
+		transition: all 4s linear;
+	}
+	.rueda2 img{
+		width: 124px;
+	}
+
+	
+</style>
